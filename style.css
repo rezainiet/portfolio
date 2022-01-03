@@ -5,13 +5,16 @@ body{
     padding: 0;
     margin: 0;
 }
+section{
+    margin-bottom: 150px;
+}
 h1{
     font-size: 50px;
 }
 p{
     color: #696969;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -38,7 +41,6 @@ section{
     border-radius: 5px;
 }
 .dream-big{
-    padding-top: 150px;
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -49,4 +51,37 @@ section{
 }
 .left-first-half{
     padding-left: 100px;
+}
+.color-yellow{
+    color: #FFA500;
+}
+h2{
+    font-size: 40px;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.experience-section{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#web-experienced{
+    border-left: 7px solid;
+    border-image: linear-gradient(#FFA07A, #FF6347);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
